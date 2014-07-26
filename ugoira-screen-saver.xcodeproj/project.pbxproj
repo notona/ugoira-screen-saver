@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571EEDC419815E8900BE723C /* zip_player in Resources */ = {isa = PBXBuildFile; fileRef = 571EEDC319815E8900BE723C /* zip_player */; };
+		57DA091F198150E500EA3D9A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DA091E198150E500EA3D9A /* Cocoa.framework */; };
+		57DA0921198150E500EA3D9A /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DA0920198150E500EA3D9A /* ScreenSaver.framework */; };
+		57DA092B198150E500EA3D9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57DA0929198150E500EA3D9A /* InfoPlist.strings */; };
+		57DA092F198150E500EA3D9A /* ugoira_screen_saverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DA092E198150E500EA3D9A /* ugoira_screen_saverView.m */; };
+		57DA09361981511D00EA3D9A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57DA09351981511D00EA3D9A /* WebKit.framework */; };
+		57DA09381981514F00EA3D9A /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 57DA09371981514F00EA3D9A /* index.html */; };
+		57DA093A1981521B00EA3D9A /* ugoira_downloader.py in Resources */ = {isa = PBXBuildFile; fileRef = 57DA09391981521B00EA3D9A /* ugoira_downloader.py */; };
+		57DA093C1981531700EA3D9A /* lock.sh in Resources */ = {isa = PBXBuildFile; fileRef = 57DA093B1981531700EA3D9A /* lock.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		571EEDC319815E8900BE723C /* zip_player */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zip_player; sourceTree = "<group>"; };
+		57DA091B198150E500EA3D9A /* ugoira-screen-saver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ugoira-screen-saver.saver"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57DA091E198150E500EA3D9A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		57DA0920198150E500EA3D9A /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		57DA0923198150E500EA3D9A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		57DA0924198150E500EA3D9A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		57DA0925198150E500EA3D9A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57DA0928198150E500EA3D9A /* ugoira-screen-saver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ugoira-screen-saver-Info.plist"; sourceTree = "<group>"; };
+		57DA092A198150E500EA3D9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57DA092C198150E500EA3D9A /* ugoira-screen-saver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ugoira-screen-saver-Prefix.pch"; sourceTree = "<group>"; };
+		57DA092D198150E500EA3D9A /* ugoira_screen_saverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ugoira_screen_saverView.h; sourceTree = "<group>"; };
+		57DA092E198150E500EA3D9A /* ugoira_screen_saverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ugoira_screen_saverView.m; sourceTree = "<group>"; };
+		57DA09351981511D00EA3D9A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		57DA09371981514F00EA3D9A /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		57DA09391981521B00EA3D9A /* ugoira_downloader.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ugoira_downloader.py; sourceTree = "<group>"; };
+		57DA093B1981531700EA3D9A /* lock.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = lock.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57DA0916198150E500EA3D9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA09361981511D00EA3D9A /* WebKit.framework in Frameworks */,
+				57DA0921198150E500EA3D9A /* ScreenSaver.framework in Frameworks */,
+				57DA091F198150E500EA3D9A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57DA0910198150E500EA3D9A = {
+			isa = PBXGroup;
+			children = (
+				57DA0926198150E500EA3D9A /* ugoira-screen-saver */,
+				57DA091D198150E500EA3D9A /* Frameworks */,
+				57DA091C198150E500EA3D9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57DA091C198150E500EA3D9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57DA091B198150E500EA3D9A /* ugoira-screen-saver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57DA091D198150E500EA3D9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DA09351981511D00EA3D9A /* WebKit.framework */,
+				57DA091E198150E500EA3D9A /* Cocoa.framework */,
+				57DA0920198150E500EA3D9A /* ScreenSaver.framework */,
+				57DA0922198150E500EA3D9A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57DA0922198150E500EA3D9A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57DA0923198150E500EA3D9A /* AppKit.framework */,
+				57DA0924198150E500EA3D9A /* CoreData.framework */,
+				57DA0925198150E500EA3D9A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		57DA0926198150E500EA3D9A /* ugoira-screen-saver */ = {
+			isa = PBXGroup;
+			children = (
+				571EEDC319815E8900BE723C /* zip_player */,
+				57DA092D198150E500EA3D9A /* ugoira_screen_saverView.h */,
+				57DA092E198150E500EA3D9A /* ugoira_screen_saverView.m */,
+				57DA0927198150E500EA3D9A /* Supporting Files */,
+				57DA09371981514F00EA3D9A /* index.html */,
+				57DA09391981521B00EA3D9A /* ugoira_downloader.py */,
+				57DA093B1981531700EA3D9A /* lock.sh */,
+			);
+			path = "ugoira-screen-saver";
+			sourceTree = "<group>";
+		};
+		57DA0927198150E500EA3D9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57DA0928198150E500EA3D9A /* ugoira-screen-saver-Info.plist */,
+				57DA0929198150E500EA3D9A /* InfoPlist.strings */,
+				57DA092C198150E500EA3D9A /* ugoira-screen-saver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		57DA0917198150E500EA3D9A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		57DA091A198150E500EA3D9A /* ugoira-screen-saver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57DA0932198150E500EA3D9A /* Build configuration list for PBXNativeTarget "ugoira-screen-saver" */;
+			buildPhases = (
+				57DA0915198150E500EA3D9A /* Sources */,
+				57DA0916198150E500EA3D9A /* Frameworks */,
+				57DA0917198150E500EA3D9A /* Headers */,
+				57DA0918198150E500EA3D9A /* Resources */,
+				57DA0919198150E500EA3D9A /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ugoira-screen-saver";
+			productName = "ugoira-screen-saver";
+			productReference = 57DA091B198150E500EA3D9A /* ugoira-screen-saver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57DA0911198150E500EA3D9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = 57DA0914198150E500EA3D9A /* Build configuration list for PBXProject "ugoira-screen-saver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57DA0910198150E500EA3D9A;
+			productRefGroup = 57DA091C198150E500EA3D9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57DA091A198150E500EA3D9A /* ugoira-screen-saver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57DA0918198150E500EA3D9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA093A1981521B00EA3D9A /* ugoira_downloader.py in Resources */,
+				571EEDC419815E8900BE723C /* zip_player in Resources */,
+				57DA093C1981531700EA3D9A /* lock.sh in Resources */,
+				57DA092B198150E500EA3D9A /* InfoPlist.strings in Resources */,
+				57DA09381981514F00EA3D9A /* index.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		57DA0919198150E500EA3D9A /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57DA0915198150E500EA3D9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA092F198150E500EA3D9A /* ugoira_screen_saverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57DA0929198150E500EA3D9A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57DA092A198150E500EA3D9A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57DA0930198150E500EA3D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		57DA0931198150E500EA3D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		57DA0933198150E500EA3D9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ugoira-screen-saver/ugoira-screen-saver-Prefix.pch";
+				INFOPLIST_FILE = "ugoira-screen-saver/ugoira-screen-saver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		57DA0934198150E500EA3D9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ugoira-screen-saver/ugoira-screen-saver-Prefix.pch";
+				INFOPLIST_FILE = "ugoira-screen-saver/ugoira-screen-saver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57DA0914198150E500EA3D9A /* Build configuration list for PBXProject "ugoira-screen-saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DA0930198150E500EA3D9A /* Debug */,
+				57DA0931198150E500EA3D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57DA0932198150E500EA3D9A /* Build configuration list for PBXNativeTarget "ugoira-screen-saver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57DA0933198150E500EA3D9A /* Debug */,
+				57DA0934198150E500EA3D9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57DA0911198150E500EA3D9A /* Project object */;
+}

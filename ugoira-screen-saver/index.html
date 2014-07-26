@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="zip_player/test/jquery-2.1.1.js"></script>
+    <script src="zip_player/zip_player.js"></script>
+    <script src="zip_player/test/meta.js"></script>
+    <script src="zip_player/test/jpeg-meta.js"></script>
+    <script src="ugoira_data.json"></script>
+    <script>
+    $(function() {
+        var options = {
+            // no source: unzipped animation
+            canvas: document.getElementById("canvas2"), // <canvas>
+            metadata: hon_meta, // TBD: json metadata format
+            loop: true,
+            autoStart: true,
+            debug: false,
+            autosize: true,
+        }
+        var p2 = new ZipImagePlayer(options);
+    })
+    </script>
+</head>
+<body style="text-align:center; margin:0; padding:0;">
+    <div style="position:fixed; height: 100%; width: 100%; top:0; left 0;">
+      <canvas id="canvas2" style="height:100%;"></canvas> 
+    </div>
+</body>
+</html>
